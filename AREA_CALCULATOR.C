@@ -1,7 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 
+float calculateRectangleArea(float length, float width) {
+    return length * width;
+}
 
+float calculateSquareArea(float side) {
+    return side * side;
+}
 
 float calculateCircleArea(float radius) {
     return M_PI * radius * radius;
